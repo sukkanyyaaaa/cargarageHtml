@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - City Centre Vehicle Garage</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <i class='bx bxs-car-garage'></i>
+        <span>CITY CENTRE VEHICLE GARAGE</span>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="quotation.html">Quotation</a></li>
+        <li><a href="bookings.html">Bookings</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">SignUp</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    <form id="contactForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required placeholder="Your name" />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" required placeholder="you@example.com" />
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" required placeholder="E.g. Booking Enquiry" />
+
+      <label for="message">Your Message</label>
+      <textarea id="message" rows="5" required placeholder="Type your message here..."></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <h2>Our Garage Info</h2>
+      <p><strong>Address:</strong> 123 City Road, Birmingham, B1 1AB</p>
+      <p><strong>Phone:</strong> 0121 123 4567</p>
+      <p><strong>Email:</strong> contact@citycentrevehiclegarage.co.uk</p>
+    </div>
+
+   
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.9348785795146!2d-1.9006813842220517!3d52.48323007980832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bd18504d0c97%3A0x5c1ff39ea96a2ad7!2sBirmingham!5e0!3m2!1sen!2suk!4v1681547388462!5m2!1sen!2suk"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </main>
+
+
+  <footer>
+    <div class="footer-left">
+      &copy; 2025 City Centre Vehicle Garage. All rights reserved.
+    </div>
+    <div class="social-icons">
+      <i class="bx bxl-instagram"></i>
+      <i class="bx bxl-linkedin-square"></i>
+      <i class="bx bxl-youtube"></i>
+    </div>
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>

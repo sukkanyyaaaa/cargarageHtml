@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quotation - City Centre Vehicle Garage</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="quotation.css" />
+</head>
+<body>
+
+  
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <i class='bx bxs-car-garage'></i>
+        <span>CITY CENTRE VEHICLE GARAGE</span>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="quotation.html">Quotation</a></li>
+        <li><a href="bookings.html">Bookings</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">SignUp</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+  <main>
+    <h1>Request a Quotation</h1>
+    <form id="quotationForm">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" placeholder="Your name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="you@example.com" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="e.g. 07712345678" required>
+
+      <label for="vehicle">Vehicle Make & Model</label>
+      <input type="text" id="vehicle" placeholder="e.g. Ford Fiesta 2018" required>
+
+      <label for="reg">Vehicle Registration</label>
+      <input type="text" id="reg" placeholder="e.g. AB12 CDE" required>
+
+      <label for="service">Type of Service</label>
+      <select id="service" required>
+        <option value="">-- Please Select --</option>
+        <option>MOT Test</option>
+        <option>Oil Change</option>
+        <option>Brake Inspection</option>
+        <option>Full Service</option>
+        <option>Other</option>
+      </select>
+
+      <label for="message">Additional Details</label>
+      <textarea id="message" rows="4" placeholder="Describe any issues or special requests..."></textarea>
+
+      <button type="submit">Submit Quotation Request</button>
+    </form>
+
+    <div id="confirmation">✅ Your request has been submitted. We’ll contact you shortly!</div>
+  </main>
+
+  <footer>
+    <div class="footer-left">
+      &copy; 2025 City Centre Vehicle Garage. All rights reserved.
+    </div>
+    <div class="social-icons">
+      <i class="bx bxl-instagram"></i>
+      <i class="bx bxl-linkedin-square"></i>
+      <i class="bx bxl-youtube"></i>
+    </div>
+  </footer>
+
+  <script src="quotation.js"></script>
+</body>
+</html>
